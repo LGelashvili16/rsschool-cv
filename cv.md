@@ -2,10 +2,10 @@
 
 ##  ℹ️ Contact information: ⬇️
 
- [Facebook](brokenLink)  
- [Instagram](brokenLink)  
- [GitHub](https://github.com/LGellson)  
- [Mail](lado@example.com)  
+ - [Facebook](brokenLink)  
+ - [Instagram](brokenLink)  
+ - [GitHub](https://github.com/LGellson)  
+ - [Mail](lado@example.com)  
 
 ***
 
