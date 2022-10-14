@@ -21,6 +21,7 @@ I started my career as a technical designer and a machine operator at advertisin
 - CSS3  
 - Javascript Basics  
 - CorelDraw  
+- Fusiion 360
 
 ***
 
