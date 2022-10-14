@@ -1,1 +1,1 @@
-add link
+https://lgellson.github.io/rsschool-cv/cv
