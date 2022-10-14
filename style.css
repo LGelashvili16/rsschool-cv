@@ -1,232 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Signika', sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header nav {
-    position: fixed;
+  position: fixed;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
 
-    background-color: rgba(41, 41, 41, 0.8);
-    backdrop-filter: blur(7px);
-    z-index: 3;
+  background-color: rgba(41, 41, 41, 0.8);
+  backdrop-filter: blur(7px);
+  z-index: 3;
 }
 
 header nav a {
-    border-radius: 5px;
-    padding: 3px 5px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    transition: all 0.5s;
+  border-radius: 5px;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
 }
 
 header nav a:hover {
-    color: rgb(2, 2, 2);
-    background-color: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(5px);
-    
-    
+  color: rgb(2, 2, 2);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
 }
 
 header nav a svg {
-    margin-top: 5px;
-    height: auto;
-    width: 15px;
+  margin-top: 5px;
+  height: auto;
+  width: 15px;
 }
 
 header nav a svg:hover {
-    text-shadow: 3px 3px 5px black;
+  text-shadow: 3px 3px 5px black;
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
 }
 
 footer nav {
-    position: relative;
+  position: relative;
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50px;
-    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  width: 100%;
 
-    background-color: rgb(34, 34, 34);
-    
-    padding: 0 250px;
+  background-color: rgb(34, 34, 34);
+
+  padding: 0 250px;
 }
 
 footer nav a {
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(209, 209, 209);
-    transition: all 0.3s;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(209, 209, 209);
+  transition: all 0.3s;
 }
 
 footer nav a:hover {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 footer nav a img {
-    margin-top: 4px;
-    height: auto;
-    width: 55px;
+  margin-top: 4px;
+  height: auto;
+  width: 55px;
 }
 
-
 #page1 {
-    color: white;
-    
-    background-image: url(./Images/wave.png);
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
-    
-    overflow-x: hidden;
+  color: white;
+
+  background-image: url(./Images/wave.png);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+
+  overflow-x: hidden;
 }
 
 .code {
-    font-size: 20px;
-    color: rgb(0, 183, 255);
+  font-size: 20px;
+  color: rgb(0, 183, 255);
 }
 
 .photo {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .photo img {
-    width: 200px;
-    margin-top: 100px;
+  width: 200px;
+  margin-top: 100px;
 }
 
 .inside-container {
-    padding: 0 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 50px;
+  padding: 0 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .main-title {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .top-card {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 
-    padding: 40px 50px;
-    width: 45vw;
-    font-size: 25px;
-    
-    margin: 100px auto 30px;
-    transition: all 0.6s;
+  padding: 40px 50px;
+  width: 45vw;
+  font-size: 25px;
+
+  margin: 100px auto 30px;
+  transition: all 0.6s;
 }
 
 .top-card h2 {
-    padding-bottom: 20px;
-    color: rgb(0, 255, 136);
+  padding-bottom: 20px;
+  color: rgb(0, 255, 136);
 }
 
 .card {
-    color: rgb(255, 255, 255);
-    /* border-top: 2px solid rgb(63, 63, 63); */
-    /* border-radius: 10px; */
-    padding: 40px 50px;
-    width: 45vw;
-    font-size: 25px;
-    border-left: 2px solid white;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-    border-right: 2px solid transparent;
-    /* box-shadow: 2px 2px 10px grey; */
-    
-    margin: 20px auto 30px;
-    transition: all 0.4s;
+  color: rgb(255, 255, 255);
+  /* border-top: 2px solid rgb(63, 63, 63); */
+  /* border-radius: 10px; */
+  padding: 40px 50px;
+  width: 45vw;
+  font-size: 25px;
+  border-left: 2px solid white;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  /* box-shadow: 2px 2px 10px grey; */
+
+  margin: 20px auto 30px;
+  transition: all 0.4s;
 }
 
 .card:hover {
-    border: 6px solid rgb(0, 255, 136);
-    border-radius: 15px;
+  border: 6px solid rgb(0, 255, 136);
+  border-radius: 15px;
 }
 
 .card h2 {
-    font-size: 30px;
-    padding-bottom: 30px;
+  font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .card p {
-    color: rgb(202, 202, 202);
-    font-size: 20px;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
 }
 
 .h1 {
-    font-size: 55px; 
-    transition: all 0.7s;
+  font-size: 55px;
+  transition: all 0.7s;
 }
 
 .main-title::after {
-    width: 150px;
-    height: 50px;
-    background-color: white;
-    z-index: 5;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  z-index: 5;
 }
 
 .h1:hover {
-    color: rgb(0, 255, 136);
+  color: rgb(0, 255, 136);
 }
 
 .header-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30vw;
-    margin-right: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  margin-right: 70px;
 }
 
 .my-name {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 .list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 10px;
-    margin: auto; 
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  margin: auto;
 }
 
 .list li a {
-    text-decoration: none;
-    color: rgb(202, 202, 202);
-    font-size: 20px;
-    transition: all 0.4s;
+  text-decoration: none;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  transition: all 0.4s;
 }
 
 .list li a:hover {
-    color: rgb(1, 201, 108);
+  color: rgb(1, 201, 108);
 }
 
 .rest-list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: auto; 
-    row-gap: 10px;
-    color: rgb(202, 202, 202);
-    font-size: 20px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  row-gap: 10px;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
 }
